@@ -1,5 +1,7 @@
 this is some text in my new file.
 
+git clone <your repo url>
+
 
 git config --global user.name "Malik"
 git config --global user.email "Mona@abc.com"
