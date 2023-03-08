@@ -1,10 +1,13 @@
-this is some text in my new file.
 
 git clone <your repo url>
 
+cd <repo name>
+code .
+
+create a file with some text
 
 git config --global user.name "Malik"
-git config --global user.email "Mona@abc.com"
+git config --global user.email "malik@sysborg.com"
 
 git add *
 git commit -m "I have created a text file with some text inside of it"
