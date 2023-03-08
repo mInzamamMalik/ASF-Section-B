@@ -1,0 +1,9 @@
+this is some text in my new file.
+
+
+git config --global user.name "Malik"
+git config --global user.email "Mona@abc.com"
+
+git add *
+git commit -m "I have created a text file with some text inside of it"
+git push
