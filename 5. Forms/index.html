@@ -13,7 +13,18 @@
 
     <form>
         <p>Username:
-            <input type="text" size="15" maxlength="5" placeholder="enter your username" />
+            <input required type="text" size="15" maxlength="5" placeholder="enter your username" />
+        </p>
+        <p>Email:
+            <input required type="email" size="15" maxlength="5" placeholder="enter your username" />
+        </p>
+        <p>Search:
+            <input type="search" size="15" maxlength="5" placeholder="enter your username" />
+        </p>
+        <p>CNIC:
+            <input required type="text" size="5" /> - 
+            <input required type="text" size="7" /> - 
+            <input required type="text" size="1" />
         </p>
         <p>
             Enter your comments:
@@ -35,7 +46,7 @@
             <input type="checkbox" name="service" value="spotify" /> Pink
         </p>
 
-        <p>What device do you listen to music on?</p>
+        <p>Which country do you live in?</p>
         <select name="countries" multiple>
             <option value="" selected>Select a country</option>
             <option value="pakistan">Pakistan</option>
@@ -194,7 +205,21 @@
             <option value="Saudi">Saudi Arab</option>
 
         </select>
+        <br />
 
+        <label for="resumeFileInput">Select your resume:</label>
+        <input id="resumeFileInput" type="file" accept="video/*">
+
+        <br />
+        <br />
+        <button type="submit">Signup</button>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </form>
 </body>
 
