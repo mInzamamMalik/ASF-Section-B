@@ -1,10 +1,11 @@
 h1 {
     color: rgb(62, 230, 28);
-    background-color: rgb(6, 0, 128);
+    /* background-color: #ee3e80; */
+    background-color: rgb(238, 62, 128)
 }
 
 p {
-    border: 1px solid rgb(255, 97, 97);
+    border: 1px solid rgb(187, 92, 44);
 }
 
 div.topicHeading {
@@ -16,6 +17,13 @@ div.topic {
     color: rgb(77, 77, 77);
 }
 
-#uni234{
+#uni234 {
     background-color: red;
 }
+
+
+/* 
+
+0123456789 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+0123456789 A   B  C  D  E  F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F 20 
+*/
