@@ -81,6 +81,64 @@
         .nav>li>a:hover {
             color: #F3764A;
         }
+
+        .banner {
+            width: 100%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+
+        .banner>.center {
+            width: 80%;
+            position: relative;
+            max-width: 1112px;
+            overflow: hidden;
+            /* border: 1px solid black; */
+        }
+
+        .banner>.center>.banner-text {
+            /* border: 2px solid red; */
+            background: rgba(212, 122, 97, 0.76);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.7px);
+            -webkit-backdrop-filter: blur(5.7px);
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 400px;
+            padding: 1.5rem;
+
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .banner .welcome {
+            font-family: sans-serif;
+        }
+
+        .banner .slogan {
+            font-size: 2.3rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .banner .button {
+            font-weight: bold;
+            margin-top: 1rem;
+            font-family: sans-serif;
+            padding: 1.3rem;
+            background-color: black;
+            color: white;
+            border-width: 0px;
+            letter-spacing: 0.2rem;
+        }
     </style>
 </head>
 
@@ -118,6 +176,20 @@
             <li> <a href="./home.html"> Home </a> </li>
         </ul>
     </nav>
+
+    <div class="banner">
+
+        <div class="center">
+            <img class="banner-img" src="./cover.jpg" alt="abc">
+            <div class="banner-text">
+                <div class="welcome">WELCOME </div>
+                <div class="slogan">Why Rent When You Can Own? </div>
+                <button class="button">REQUEST INFORMATION</button>
+                <button class="button">FIND YOUR NEW HOME</button>
+            </div>
+        </div>
+
+    </div>
 
 
 
