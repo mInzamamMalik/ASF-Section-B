@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-shadow: 40px 11px 9px #EE6400;
+        }
+        h1:hover{
+            text-shadow: none;
+            color: #EE6400;
+        }
+
+
+        li {
+            padding: 0.3rem;
+            margin: 0.3rem;
+        }
+        a{
+            padding: 0.2rem;
+        }
+
+        a:link {
+            color: black;
+        }
+
+        a:active {
+            color: green;
+            text-shadow: 3px 3px 3px blue;
+        }
+
+        a:hover {
+            color: #EE6400;
+            font-size: 1.3rem;
+        }
+
+        a:focus {
+            border: 2px solid green;
+            color: green;
+            border-radius: 5px;
+            outline-style: none;
+            text-decoration: none;
+        }
+
+        button:active{
+            background-color: #EE6400;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <img width="70px" src="./sun.png" alt="sun image">
+    <h1>Hello drop shadow</h1>
+
+    <button>Click me to activate</button>
+
+    <ul>
+        <li><a tabindex="100" href="./home.html">goto home</a></li>
+        <li><a tabindex="1" href="./home.html">goto home</a></li>
+        <li><a tabindex="2" href="./home.html">goto home</a></li>
+        <li><a tabindex="3" href="./home.html">goto home</a></li>
+    </ul>
+</body>
+
+</html>
