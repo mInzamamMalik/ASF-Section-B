@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p[id] {
+            color: red;
+        }
+
+        p[asf] {
+            color: green;
+        } */
+
+        /* p[class~="force"] {
+            border: 1px solid black;
+        } */
+
+        /* p[class^="fo"] {
+            border: 1px solid black;
+        } */
+
+        /* p[class$="g force"] {
+            border: 1px solid black;
+        } */
+
+        /* p[id*="g"] {
+            border: 1px solid black;
+        } */
+
+        /* * {
+            margin: 0px
+        } */
+
+        .parent {
+            width: 60rem;
+            background-color: rgb(214, 214, 214);
+            /* display: flex; */
+        }
+
+        .parent>div {
+            display: inline-block;
+            border: 5px solid;
+
+            margin: 5px;
+            width: 20rem;
+            height: 20rpx;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div id="abc" class="something force"> para 1 </div>
+        <div class="force"> para2 </div>
+        <div id="genere"> para2 </div>
+
+    </div>
+
+
+</body>
+
+</html>
