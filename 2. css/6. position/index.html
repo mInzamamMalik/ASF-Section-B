@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .container>img {
+            position: absolute;
+            top: 0px;
+            right: 70px;
+
+        }
+
+        .second {
+            position: relative;
+            bottom: 10px;
+            left: 30px;
+            width: 500px;
+        }
+
+        div {
+            border: 2px solid orange;
+        }
+
+        p,
+        h1 {
+            /* border: 2px solid green; */
+        }
+
+        .card {
+            position: relative;
+        }
+
+        .card>h1 {
+            position: absolute;
+            background-color: red;
+            top: 0;
+            right: 0;
+
+        }
+
+        .fix {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <img width="80px" src="./bookmark.png" alt="Bookmark icon">
+        <h1>Hello position</h1>
+        <p>Every block-level element appears on a new line, causing each item to appear lower down the page than the
+            previous one. Even if you specify the width
+        </p>
+
+        <p class="second">
+            of the boxes and there is space for two elements to sit side-by- side, they will not appear next to each
+            other. This is the default behavior (unless you tell the browser to do something else).
+        </p>
+        <p>
+            This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom,
+            or left of where it would have been placed. This does not affect the position of surrounding elements; they
+            stay in the position they would be in in normal flow.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+        <h1>Hello position</h1>
+
+        <p>
+            This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom,
+            or left of where it would have been placed. This does not affect the position of surrounding elements; they
+            stay in the position they would be in in normal flow.
+        </p>
+        <p>
+            This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom,
+            or left of where it would have been placed. This does not affect the position of surrounding elements; they
+            stay in the position they would be in in normal flow.
+        </p>
+        <p>
+            This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom,
+            or left of where it would have been placed. This does not affect the position of surrounding elements; they
+            stay in the position they would be in in normal flow.
+        </p>
+        <p>
+            This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom,
+            or left of where it would have been placed. This does not affect the position of surrounding elements; they
+            stay in the position they would be in in normal flow.
+        </p>
+        <p>
+            This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom,
+            or left of where it would have been placed. This does not affect the position of surrounding elements; they
+            stay in the position they would be in in normal flow.
+        </p>
+
+    </div>
+
+    <a href="https://wa.me/03022004480">
+        <img class="fix" width="100px" src="./whatsapp.png" alt="chat icon">
+    </a>
+
+</body>
+
+</html>
