@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .parent {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 96, 96);
+            margin: 10px;
+
+        } */
+
+
+
+
+
+        /* for Mobile */
+        /* @media screen and (max-width: 375px) {
+            .parent1 {
+                background-color: red;
+            }
+        } */
+        /* for Tablet */
+        /* @media screen and (min-width: 375px) and (max-width: 768px) {
+            .parent1 {
+                background-color: blue;
+            }
+        } */
+
+        .parent_desktop {
+            background-color: rgb(160, 160, 0);
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .box_desktop {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 96, 96);
+            margin: 10px;
+        }
+
+        .parent_mobile {
+            background-color: rgb(160, 160, 0);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box_mobile {
+            padding: 1.5rem;
+            background-color: rgb(255, 96, 96);
+            margin: 10px;
+            align-items: stretch;
+        }
+
+        /* for Mobile */
+        @media screen and (max-width: 768px) {
+            .parent_desktop{
+                display: none;
+            }
+            .parent_mobile{
+                display: flex;
+            }
+        }
+
+        /* for Tablet */
+         @media screen and (min-width: 768px){
+            .parent_mobile {
+                display: none;
+            }
+            .parent_desktop{
+                display: flex;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Media Query</h1>
+
+
+    <div class="parent_desktop">
+        <div class="box_desktop">Box 1</div>
+        <div class="box_desktop">Box 2</div>
+        <div class="box_desktop">Box 3</div>
+        <div class="box_desktop">Box 4</div>
+    </div>
+
+    <div class="parent_mobile">
+        <div class="box_mobile">Box 1</div>
+        <div class="box_mobile">Box 2</div>
+        <div class="box_mobile">Box 3</div>
+        <div class="box_mobile">Box 4</div>
+    </div>
+
+
+
+</body>
+
+</html>

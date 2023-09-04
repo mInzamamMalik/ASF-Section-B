@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .header-ticker {
+            text-transform: uppercase;
+            background-color: #F3764A;
+            padding: 0.3rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header_edge {
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid blue; */
+        }
+
+        .header {
+            /* border: 1px solid black; */
+            width: 80%;
+            max-width: 1000px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header>div {
+            /* border: 1px solid green; */
+            /* width: 100px;
+            height: 100px; */
+        }
+
+        .header>.item1>img,
+        .header>.item1>a {
+            margin-right: 1rem;
+            border: 1px solid black;
+        }
+
+        .header>.item3,
+        .header>.item1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav_edge {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav {
+            display: flex;
+            /* border: 1px solid green; */
+            justify-content: space-around;
+
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        .nav>li {
+            list-style-type: none;
+            border-bottom: 2px solid #F3764A;
+        }
+
+
+
+        .nav>li>a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: 600;
+        }
+
+        .nav>li>a:hover {
+            color: #F3764A;
+        }
+
+        .banner {
+            width: 100%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+
+        .banner>.center {
+            width: 80%;
+            position: relative;
+            max-width: 1112px;
+            overflow: hidden;
+            height: 625px;
+            /* border: 1px solid black; */
+        }
+
+        .banner>.center>.banner-text {
+            /* border: 2px solid red; */
+            background: rgba(212, 122, 97, 0.76);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.7px);
+            -webkit-backdrop-filter: blur(5.7px);
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 400px;
+            padding: 1.5rem;
+
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .banner .welcome {
+            font-family: sans-serif;
+        }
+
+        .banner .slogan {
+            font-size: 2.3rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .banner .button {
+            font-weight: bold;
+            margin-top: 1rem;
+            font-family: sans-serif;
+            padding: 1.3rem;
+            background-color: black;
+            color: white;
+            border-width: 0px;
+            letter-spacing: 0.2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-ticker">
+        receive UP TO $5K IN CLOSING COSTS ON SELECT HOMES. CALL 832-585-3304 TODAY!
+    </div>
+    <div class="header_edge">
+        <div class="header">
+
+            <div class="item1">
+                <a href="http://google.com/abc">
+                    <img width="20px" src="./logo.webp" alt="logo">
+                </a>
+                <img width="20px" src="./logo.webp" alt="logo">
+                <img width="20px" src="./logo.webp" alt="logo">
+            </div>
+
+            <img width="200px" src="./logo.webp" alt="logo">
+
+            <div class="item3">
+                <img width="20px" src="./logo.webp" alt="logo">
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="nav_edge">
+        <ul class="nav">
+            <li> <a href="./home.html"> Home </a> </li>
+            <li> <a href="./home.html"> Home </a> </li>
+            <li> <a href="./home.html"> Home gallery </a> </li>
+            <li> <a href="./home.html"> Home </a> </li>
+            <li> <a href="./home.html"> Home </a> </li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+
+        <div class="center">
+            <img class="banner-img" src="./cover.jpg" alt="abc">
+            <div class="banner-text">
+                <div class="welcome">WELCOME </div>
+                <div class="slogan">Why Rent When You Can Own? </div>
+                <button class="button">REQUEST INFORMATION</button>
+                <button class="button">FIND YOUR NEW HOME</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
